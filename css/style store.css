@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+@viewport{
+  zoom:1.0;
+  width:extent-to-zoom;
+}
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../IMAGE/Background/pexels-kamaji-ogino-5094483.jpg');
+	background-size: cover;
+}
+*{
+	font-family: montserrat;
+}
+
+nav{
+	width: 100%;
+	height: 15vh;
+	background: rgba(0, 0, 0, 0.31);
+	color: white;
+	display: flex;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+
+
+nav .menu{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav .menu a{
+	width: 150%;
+	text-decoration: none;
+  color: white;
+	font-weight: bold;
+}
+
+
+.navbtn{
+  width: 250px;
+  background: #00b894;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.pic{
+	width: 175px;
+	height: 175px;
+	position: fixed;
+	margin-top: 50px;
+}
+.lst7{
+	margin-top: 350px;
+}
+.pic1{
+	margin-left: 75px;
+}
+.pic2{
+	margin-left: 275px;
+}
+.pic3{
+	margin-left: 475px;
+}
+.pic4{
+	margin-left: 675px;
+}
+.pic5{
+	margin-left: 875px;
+}
+.pic6{
+	margin-left: 1075px;
+}
+.pic7{
+	margin-left: 1275px;
+}
+
+.btn{
+background: #00b894;
+color: #fff;
+text-align: center;
+border-radius: 5px;
+text-transform: uppercase;
+width: 175px;
+height: 50px;
+cursor: pointer;
+position: fixed;
+margin-top: 550px;
+border: 0;
+}
+
+.fst7{
+margin-top: 250px;
+}
+.buybtn{
+	margin-left: 75px;
+}
+.buybtn1{
+	margin-left: 275px;
+}
+.buybtn2{
+	margin-left: 475px;
+}
+.buybtn3{
+	margin-left: 675px;
+}
+.buybtn4{
+	margin-left: 875px;
+}
+.buybtn5{
+	margin-left: 1075px;
+}
+.buybtn6{
+	margin-left: 1275px;
+}
+
+.nb{
+	margin-left: 30px;
+	width: 300px;
+}

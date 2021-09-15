@@ -1,0 +1,118 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+*{
+	font-family: montserrat;
+}
+
+@viewport{
+  zoom:1.0;
+  width:extent-to-zoom;
+}
+
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../IMAGE/Background/pexels-vanessa-loring-5966630.jpg');
+	background-size: cover;
+}
+
+nav{
+	width: 100%;height: 15vh;
+	background: rgba(0,0,0,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+
+.navbtn{
+  width: 250px;
+  background: #00b894;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+nav .menu{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav .menu a{
+	width: 150%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+
+main{
+	height: 80%;
+	width: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+
+
+.footer1{
+height: 130px;
+background-color: #1e272e;
+text-align: center;
+}
+
+.link{
+margin-bottom: 100px;
+text-decoration: none;
+font-size: 15px;
+color: #2980b9;
+}
+
+
+.slider{
+	width: 2000px;
+	height: 550px;
+	margin-bottom: 30px;
+	margin-left: 900px;
+}
+
+.slider1{
+	width: 550px;
+	height: 550px;
+	margin-bottom: 40px;
+	margin-left: 300px;
+}
+
+
+.btn{
+  width: 250px;
+  background: #00b894;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.nb{
+	margin-left: 30px;
+	width: 300px;
+}
+

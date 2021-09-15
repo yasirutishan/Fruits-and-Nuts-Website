@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: montserrat;
+}
+
+@viewport{
+  zoom:1.0;
+  width:extent-to-zoom;
+}
+
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../IMAGE/Background/background blur.jpg');
+	background-size: cover;
+}
+
+.navbtn{
+  width: 250px;
+  background: #00b894;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+nav{
+	width: 100%;height: 15vh;
+	background: rgba(0,0,0,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+
+nav .menu{
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav .menu a{
+	width: 150%;
+	text-decoration: none; color: white;
+	font-weight: bold;
+}
+
+.footer1{
+height: 130px;
+background-color: #1e272e;
+text-align: center;
+}
+
+.link{
+margin-bottom: 100px;
+text-decoration: none;
+font-size: 15px;
+color: #2980b9;
+}
+
+.container{
+  max-width: 800px;
+  height: 570px;
+  background: #fff;
+  margin: 50px auto;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+	margin-top:30px;
+}
+
+.contact{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 45px;
+  margin-bottom: 20px;
+  color: #00b894;
+}
+
+.input, .msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+
+.subject{
+  width: 98%;
+  float: left; 
+}
+
+.msg{
+  width: 98%;
+  float: left; 
+}
+
+.qty{
+  width: 98%;
+  float: left; 
+}
+
+.btn{
+  width: 250px;
+  background: #00b894;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.input:focus,
+.msg .area:focus{
+  border: 2px solid #00b894;
+}
+
+.container #error_message{
+	margin-bottom: 20px;
+	padding: 0px;
+	background: #FE8B8E;
+	text-align: center;
+	fornt-size:12px;
+	transition: all 0.5s ease;
+}
+.linklogo{
+	color: #00b894;
+}
+.nb{
+	margin-left: 30px;
+	width: 300px;
+}

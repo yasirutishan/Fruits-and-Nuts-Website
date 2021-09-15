@@ -1,0 +1,190 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+*{
+	font-family: montserrat;
+}
+
+@viewport{
+    zoom:1.0;
+    width:extent-to-zoom;
+}
+
+
+header{
+	width: 100%;
+	height: 100vh;
+	background-image:url('../IMAGE/Background/julia-zolotova-M_xIaxQE3Ms-unsplash.jpg');
+	background-size: cover;
+}
+
+
+.navbtn{
+  width: 250px;
+  background: #00b894;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+nav{
+	width: 100%;
+	height: 15vh;
+	background: rgba(0,0,0,0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+
+nav .menu{
+	width: 50%;
+	display: flex;justify-content: space-around;
+}
+
+nav .menu a{
+	width: 150%;
+	text-decoration: none; color: white;
+	font-weight: bold;
+}
+
+
+main{
+	height: 80%;
+	width: 100%;
+	display: flex;
+}
+
+.adj{
+margin-top: 0px;
+text-shadow: 1px 1px 1px black;
+white-space: 2px;
+letter-spacing: 4px;
+text-indent: inherit;
+}
+
+.footer1{
+height: 130px;
+background-color: #1e272e;
+text-align: center;
+
+}
+
+.link{
+margin-bottom: 100px;
+text-decoration: none;
+font-size: 15px;
+font-family: "montserrat";
+color: #2980b9;
+}
+
+
+/*Sign Up*/
+
+.container{
+  width: 500px;
+  height: 520px;
+  background: #fff;
+  margin: 20px auto;
+  margin-left:160px;
+  margin-top: -10px;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+.register{
+  color: #00b894;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.login{
+  color: #00b894;
+  letter-spacing: 2px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.input,
+.msg .area{
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+  border: 2px solid #e9eaea;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  transform: all 0.5s ease;
+}
+
+.login .input{
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+}
+
+.msg .area{
+  height: 150px;
+}
+
+.btn{
+  width: 250px;
+  background: #00b894;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.container #error_message{
+  margin-bottom: 20px;
+  padding: 0px;
+  background: #FE8B8E;
+  text-align: center;
+  fornt-size:12px;
+  transition: all 0.5s ease;
+}
+
+/*Sign In*/
+
+.container1{
+  width: 500px;
+  height: 359px;
+  background: #fff;
+  margin-top: 45px;
+  margin-left: 200px;
+  box-shadow: 0 0 20px rgba(72,98,85, 0.6);
+  box-sizing: border-box;
+  padding: 40px;
+}
+
+.container1 #error_message1{
+  margin-bottom: 30px;
+  padding: 0px;
+  background: #FE8B8E;
+  text-align: center;
+  fornt-size:12px;
+  transition: all 0.5s ease;
+}
+
+.nb{
+	margin-left: 30px;
+	width: 300px;
+}
